@@ -1,2 +1,2 @@
 rm -f
-cp $PROJ_PATH/laravel/*  $WORKSPACE_PATH
+cp -r $PROJ_PATH/laravel/*  $WORKSPACE_PATH
