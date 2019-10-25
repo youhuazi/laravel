@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle>
+<file name="C:\Users\yonghua-you\test\composer_demo\laravel-demo\app\Http\Controllers\StudentController.php">
+  <error line="13" column="1" severity="error" message="Used function Sodium\add not found." />
+</file>
+</checkstyle>
+

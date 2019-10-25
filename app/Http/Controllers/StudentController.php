@@ -30,6 +30,7 @@ class StudentController extends Controller
         Log::info('this is info larve ');
         Log::warning('this is warning larve ');
         Log::error('this is warning larve ', ['name'=>'youhuazi','age'=>'18']);
+
     }
 
     public function  cache1()
@@ -52,16 +53,24 @@ class StudentController extends Controller
 //        var_dump($val);
 //        $val = Cache::get('key3');
 //        var_dump($val);
-        if (Cache::has('key3')){
-            $val = Cache::get('key3');
-            var_dump($val);
+//        if (Cache::has('key3')){
+//            $val = Cache::get('key3');
+//            var_dump($val);
+//        }else{
+//            echo '0';
+//        }
+//        $val4 = Cache::pull('key4');
+//        var_dump($val4);
+//        $bool = Cache::forget('key1');
+//        $num = 10/4;
+//        $seperated = (int) explode('.', $num);
+//        $seperated = array_map('intval',explode('.', $num));
+//        var_dump($num);
+        if (null){
+            var_dump(1);
         }else{
-            echo '0';
+            var_dump(2);
         }
-        $val4 = Cache::pull('key4');
-        var_dump($val4);
-        $bool = Cache::forget('key1');
-        var_dump($bool);
 
 
     }
